@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity suite">
+    <test name="Sanity">
+        <classes>
+            <!--
+         <class name="testcases.GetAssetRisk"/>
+            <class name="testcases.HealthCheckAPI"/>
+            -->
+            <class name="testcases.RiskLevel"></class>
+        </classes>
+    </test>
+</suite>
